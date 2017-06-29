@@ -571,6 +571,12 @@ font-size:1.6em;
 	font-size:1.6em;
 	}
 
+	footer {
+	position:static;
+	padding:3% 0 0 0;
+	width:100%;
+	}
+
  }
 
 
