@@ -28,7 +28,7 @@ body, html {
 	height:100%;
 	font-size:1em;
 	line-height:1.6;
-	font-family:'Montserrat', Arial, Helvetica, sans-serif;
+	font-family:'questrial', Arial, Helvetica, sans-serif;
 
 }
 
@@ -88,7 +88,7 @@ html nav ul {
 nav span, nav a {
  
 	text-decoration:none;
-	font-family:'Montserrat', Arial, Helvetica, sans-serif;
+	font-family:'questrial', Arial, Helvetica, sans-serif;
 	color:#fff;
 	font-size:.8em;
 	 
@@ -128,7 +128,28 @@ nav a:active {
 .width5 a:hover {
 	color:#94dcd6;	
 }
+/*TITLES*/
 
+
+#title_poems {
+width:443px;
+padding:60px 0px;		
+}
+#title_about {
+	width:133px;
+	padding:80px 0px;
+	
+
+}
+#title_projects {
+		width:333px;
+		padding:60px 0px;
+}
+
+#title_works {
+		width:269px;
+		padding:60px 0px;
+}
 
 /*GENERAL*/
 
@@ -165,7 +186,7 @@ float:left;
 
 .bodytext {
 color:#333;	
-margin-bottom:40px;
+margin-bottom:20px;
 	
 }
 
@@ -192,8 +213,8 @@ height:300px;
 width:300px;
 display:block;
 position:absolute;
-left:125px;
-top:100px;
+left:90px;
+top:80px;
 }
 
 .poemLinkContainer {
@@ -207,7 +228,7 @@ left:270px;
 
 
 .poemLink, .poemLink a {
-	font-family:'Montserrat', helvetica, arial, sans-serif;
+	font-family:'questrial', helvetica, arial, sans-serif;
 	color:#fff;
 	font-size:17px;
 	float:left;
@@ -237,11 +258,7 @@ left:270px;
 }
 
 /*ABOUT*/
-#title_about {
-	width:133px;
-	padding:60px 0px;
-	
-}
+
 .aboutWrapper {
 	width:100%;
 	max-width:940px;
@@ -267,17 +284,28 @@ text-align:top;
 	}
 
 /*PROJECTS*/
-#title_projects {
-		width:333px;
-		padding:60px 0px;
+
+
+.order_btn {
+	border-radius:6px;
+	background-color:#220956;
+	padding:14px 20px;
+	color:#fff;
+	width:100%;
+	display:inline-block;
+	text-decoration:none;
+	text-align:center;
+}
+#btn_buy {
+	width:160px;
+	margin:25px auto 40px auto;
+
 }
 
-#title_works {
-		width:269px;
-		padding:60px 0px;
+.order_btn:hover {
+	background-color:#c433b1;;
+
 }
-
-
 .project_text1 {
 width:585px;
 text-align:left;
@@ -303,9 +331,7 @@ padding-top:50px;
 width:429px;
 	
 }
-#btn_buy {
-width:246px;
-}
+
 .project_coming {
 width:246px;	
 }
@@ -321,18 +347,19 @@ width:246px;
 	max-width:500px;
 	margin-left:150px;
 	margin:0px auto;
+
 }
-#title_poems {
-width:443px;
-padding:60px 0px;		
-}
+
+
 .poem {
 text-align:left;
 margin-bottom:4%;
 padding:7%;
 font-size:.8em;
 width:100%;
+background-color:#F7F7F4;
 }
+
 .poemtitle {
 color:#0caaab;
 font-size:1.6em;
