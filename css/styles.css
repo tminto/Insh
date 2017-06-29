@@ -243,11 +243,12 @@ left:270px;
 	
 }
 .aboutWrapper {
-	width:940px;
+	width:100%;
+	max-width:940px;
 	margin:0px auto;
 }
 .about_portrait {
-width:339px;
+width:36%;
 float:left;	
 line-height:1.5em;
 }
@@ -256,11 +257,10 @@ line-height:1.5em;
 vertical-align: text-top;	
 }
 .about_text {
-width:566px;
+width:64%;
 padding:0px 20px;
 float:left;	
 vertical-align:top;
-margin-left:15px;
 text-align:top;
 	}
 
