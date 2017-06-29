@@ -310,13 +310,16 @@ width:246px;
 width:246px;	
 }
 /*POEMS*/
-.poemsContainer {
-	width:500px;
-	margin-left:150px;
+
+.poemsColsWrapper{
+	width:100%;
 	margin:0px auto;
+
 }
-.poemColsContainer {
-	width:940px;
+.poemsContainer {
+	width:100%;
+	max-width:500px;
+	margin-left:150px;
 	margin:0px auto;
 }
 #title_poems {
@@ -326,9 +329,9 @@ padding:60px 0px;
 .poem {
 text-align:left;
 margin-bottom:4%;
-background-color:#F4F3F3;
 padding:7%;
 font-size:.8em;
+width:100%;
 }
 .poemtitle {
 color:#0caaab;
