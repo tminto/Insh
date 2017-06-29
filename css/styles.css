@@ -352,6 +352,7 @@ width:246px;
 
 .poem {
 text-align:left;
+margin:0px auto;
 margin-bottom:4%;
 padding:7%;
 font-size:.8em;
@@ -379,6 +380,34 @@ font-size:1.6em;
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+/*FOOTER*/
+ .bottom {	
+/*margin:2% auto 0px auto;*/
+width:100%;
+background-color:#50454c;
+padding-top:2%;
+padding-bottom:3%;
+text-align:center;
+}
+.footer_text {
+color:#ffffff;	
+font-family:helvetica, arial, sans-serif;
+font-size:.9em;
+text-decoration:none;
+}
+
+.footer_text a {
+	font-size:.9em;
+}
+footer {
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:70px;
+	width:100%;
+	background:#50454c;
+	
+}
 
 
 @media only screen and (max-width: 850px) {
@@ -409,43 +438,16 @@ font-size:1.6em;
 	}
 
 }
- /*FOOTER*/
- .bottom {	
-/*margin:2% auto 0px auto;*/
-width:100%;
-background-color:#50454c;
-padding-top:2%;
-padding-bottom:3%;
-text-align:center;
-}
-.footer_text {
-color:#ffffff;	
-font-family:helvetica, arial, sans-serif;
-font-size:.9em;
-text-decoration:none;
-}
-
-.footer_text a {
-	font-size:.9em;
-}
-footer {
-	position:absolute;
-	bottom:0;
-	left:0;
-	height:70px;
-	width:100%;
-	background:#50454c;
-	
-}
+ 
 
 @media only screen and (max-width: 480px) {
 
 	#mainImage {
-	background-color:#fff;
+	background-color;
 	width:480px;
 	height:279px;
 	padding:0px;	
-	margin:0px auto;
+	margin:5% auto;
 
 	}
 	.poemLinkContainer { 	
@@ -461,6 +463,7 @@ footer {
 	.textOver {
 		left:40px;
 		top:60px;
+		height:auto;
 	}
 	#navContainer
 	{
@@ -598,7 +601,6 @@ footer {
 	}
     #wrapper {
     	padding-bottom:0;
-    	height:auto;
     }
 	#footerResult {
 	position:static;
@@ -620,7 +622,7 @@ footer {
 	width:400px;
 	height:232px;
 	padding:0px;	
-	margin:0px auto;
+	margin:5% auto;
 	}
 	.textOver img {
 		width:50%;
