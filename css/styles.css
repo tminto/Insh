@@ -219,9 +219,9 @@ top:80px;
 .poemLinkContainer {
 width:280px;
 height:30px;
-position:absolute;
-top:460px;
-left:270px;
+position:relative;
+top:440px;
+margin:0px auto;
 
 }
 
@@ -408,6 +408,19 @@ footer {
 	background:#50454c;
 	
 }
+.footerWrapper {
+	width:100%;
+	max-width:960px;
+	padding-top:1%;
+	
+}
+.footerInner {
+	width:49px;
+	margin:0px auto;
+}
+.footerInner img {
+	width:100%;
+}
 
 
 @media only screen and (max-width: 850px) {
@@ -432,8 +445,7 @@ footer {
 		top:60px;
 	}
 	.poemLinkContainer {
-		top:270px;
-		left:150px;
+		top:285px;
 
 	}
 
@@ -500,7 +512,7 @@ footer {
 	{
 		margin-top:2%;
 		margin-bottom:4%;
-		max-width:70%;
+		max-width:90%;
 	}
 	#headerResult {
 		padding-bottom:2%;
@@ -610,6 +622,9 @@ footer {
 		background:green;
 	}
 
+	.footerInner img {
+	width:80%;
+}
  }
 
 
@@ -625,7 +640,7 @@ footer {
 	margin:5% auto;
 	}
 	.textOver img {
-		width:40%;
+		width:50%;
 	}
 	.textOver {
 		left:30px;
