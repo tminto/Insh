@@ -26,15 +26,18 @@ body, html {
 	padding:0px;
 	margin:0px;
 	height:100%;
-}
-body {
+	font-size:1em;
+	line-height:1.6;
+	font-family:'Montserrat', Arial, Helvetica, sans-serif;
 
 }
-	
+
 /*WRAPPER*/
 #wrapper {
 	min-height:100%;
+	width:100%;
 	position:relative;
+
 	padding-bottom:70px;
 }
 /*HEADER IMAGE*/
@@ -161,10 +164,7 @@ float:left;
 }
 
 .bodytext {
-font-family:Arial, Helvetica, sans-serif;
-font-size:.9em;
-color:#333;
-line-height:1.5em;	
+color:#333;	
 margin-bottom:40px;
 	
 }
@@ -246,6 +246,7 @@ left:270px;
 	width:100%;
 	max-width:940px;
 	margin:0px auto;
+
 }
 .about_portrait {
 width:36%;
@@ -262,6 +263,7 @@ padding:0px 20px;
 float:left;	
 vertical-align:top;
 text-align:top;
+
 	}
 
 /*PROJECTS*/
@@ -420,7 +422,7 @@ font-size:1.6em;
 		list-style: none;
 	}
 	 #navContainer span, #navContainer a {
-	    font-size:2em;
+	    font-size:1.4em;
 		color:#fff;
 	    }
 
@@ -487,8 +489,8 @@ font-size:1.6em;
 	}
 
 	.bodytext {
-	font-size:2.2em;
-	line-height:1.8em;	
+	font-size:.9em;
+	line-height:1.5em;	
 	}
 	  
 	.project_text1, .project_text2 {
@@ -504,15 +506,17 @@ font-size:1.6em;
 	}
 		
 	.about_portrait {
-	width:80%;
+	width:90%;
 	float:none;	
 	}
 
 	.about_text {
 	float: none;
-	width:80%;
+	width:90%;
 	margin:0px auto;
-	padding-top:3%;
+	padding:5% 0;
+	font-size:.9em;
+	line-height:1.5em;
 		}
 
 	.inshphoto {
@@ -528,8 +532,9 @@ font-size:1.6em;
 	}
 	.poem {
 	
-	padding:7%;
+	width:90%;
 	font-size:.9em;
+	line-height:1.5;
 	}
 	.poemtitle {
 	color:#0caaab;
@@ -542,13 +547,20 @@ font-size:1.6em;
 
 
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width:400px) {
 	#mainImage {
 	background-color:#fff;
-	width:380px;
-	height:221px;
+	width:400px;
+	height:232px;
 	padding:0px;	
 	margin:0px auto;
+	}
+	.textOver img {
+		width:50%;
+	}
+	.textOver {
+		left:40px;
+		top:60px;
 	}
 }
 @media only screen and (max-width: 320px) {
@@ -578,6 +590,10 @@ font-family:helvetica, arial, sans-serif;
 font-size:.9em;
 text-decoration:none;
 }
+
+.footer_text a {
+	font-size:.9em;
+}
 footer {
 	position:absolute;
 	bottom:0;
@@ -589,7 +605,7 @@ footer {
 
 @media only screen and (max-width: 480px) {
 	  .footer_text {
-		  font-size:1.3em;
+		  font-size:.9em;
 	  }
 	  
   }
