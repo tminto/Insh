@@ -625,11 +625,11 @@ footer {
 	margin:5% auto;
 	}
 	.textOver img {
-		width:50%;
+		width:40%;
 	}
 	.textOver {
-		left:40px;
-		top:60px;
+		left:30px;
+		top:50px;
 	}
 }
 @media only screen and (max-width: 320px) {
